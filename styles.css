@@ -4,16 +4,22 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
+.pc {
+  color: #40bad5;
+}
+
 #level-title {
-  font-size: 3rem;
+  font-size: 2rem;
   margin:  5%;
   color: #FEF2BF;
   line-height: 1.5;
 }
 
 .or {
-  color: #FEF2BF;
+  color: #fcbf1e;
+  line-height: 3;
 }
+
 
 .container {
   display: block;

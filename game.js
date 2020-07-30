@@ -6,6 +6,7 @@ var started = false;
 var level = 0;
 
 $(document).keydown(function() {
+  animateStart();
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -14,7 +15,7 @@ $(document).keydown(function() {
 
 });
 $(".start-button").click(function(){
-  animateClickMe();
+  animateStart();
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -104,7 +105,7 @@ function animatePress(currentColor) {
 
 }
 
-function animateClickMe(){
+function animateStart(){
   $(".start-button").addClass("start");
   $(".or").addClass("start");
   $(".pc").addClass("start");

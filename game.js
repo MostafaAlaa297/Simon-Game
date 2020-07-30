@@ -107,6 +107,7 @@ function animatePress(currentColor) {
 function animateClickMe(){
   $(".start-button").addClass("start");
   $(".or").addClass("start");
+  $(".pc").addClass("start");
 }
 
 function startOver() {

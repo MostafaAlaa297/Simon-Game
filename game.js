@@ -62,7 +62,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#level-title").text("Game Over, You've reched level " +"(" + level + ")" + ", Press Any Button To Restart");
+    $("#level-title").text("Game Over, You've reached level " +"(" + level + ")" + ", Press Any Button To Restart");
 
 
     startOver();

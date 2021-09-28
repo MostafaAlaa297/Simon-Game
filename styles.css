@@ -20,6 +20,9 @@ body {
   line-height: 3;
 }
 
+.mobile {
+  color: #40bad5;
+}
 
 .container {
   display: block;
